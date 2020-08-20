@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: hexbot
+    relative_path: urdf/armmove.xacro
+    xacro_args: ""
+  SRDF:
+    relative_path: config/hexbot.srdf
+  CONFIG:
+    author_name: janak
+    author_email: j@r.com
+    generated_timestamp: 1597758012

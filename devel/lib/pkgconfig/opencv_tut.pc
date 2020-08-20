@@ -1,0 +1,8 @@
+prefix=/home/janak/hexbot_ws/devel
+
+Name: opencv_tut
+Description: Description of opencv_tut
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

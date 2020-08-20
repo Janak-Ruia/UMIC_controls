@@ -1,0 +1,8 @@
+prefix=/home/janak/hexbot_ws/install
+
+Name: hexbot_moveit_config
+Description: Description of hexbot_moveit_config
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

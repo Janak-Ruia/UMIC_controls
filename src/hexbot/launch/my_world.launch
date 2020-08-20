@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<launch>
+        <!-- overwriting these args -->
+        <arg name="debug" default="false" />
+        <arg name="gui" default="true" />        <!-- to be kept true if we require the graphical interface -->
+        <arg name="pause" default="false" />            <!-- if true, the simulation starts in paused state. you have to play it to see the gravity and other movements -->
+        <arg name="world" default="$(find hexbot)/world/world03.world" />
+
+        <!-- include gazebo_ros launcher -->
+        <include file="$(find gazebo_ros)/launch/empty_world.launch">
+                <arg name="world_name" value="$(arg world)" />
+                <arg name="debug" value="$(arg debug)" />
+                <arg name="gui" value="$(arg gui)" />
+                <arg name="paused" value="$(arg pause)" />
+                <arg name="use_sim_time" value="true" />             <!-- export GAZEBO_MODEL_PATH=~/simulation_ws/src/my_simulations/models:${GAZEBO_MODEL_PATH} -->
+        </include>
+</launch>

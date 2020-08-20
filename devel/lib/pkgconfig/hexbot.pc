@@ -1,0 +1,8 @@
+prefix=/home/janak/hexbot_ws/devel
+
+Name: hexbot
+Description: Description of hexbot
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

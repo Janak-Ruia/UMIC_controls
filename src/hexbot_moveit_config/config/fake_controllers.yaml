@@ -1,0 +1,14 @@
+controller_list:
+  - name: fake_arm_controller
+    joints:
+      - joint_base_top
+      - joint_arm_lower
+      - joint_arm_upper
+  - name: fake_finger_controller
+    joints:
+      - joint_lastlink
+      - fing_tohand
+      - fingr_tohand
+initial:  # Define initial robot poses.
+  - group: finger
+    pose: try
