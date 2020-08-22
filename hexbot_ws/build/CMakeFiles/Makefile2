@@ -1351,6 +1351,24 @@ hexbot_moveit_config_3/preinstall:
 .PHONY : hexbot_moveit_config_3/preinstall
 
 #=============================================================================
+# Directory level rules for directory hexbot_moveit_config_4
+
+# Convenience name for "all" pass in the directory.
+hexbot_moveit_config_4/all:
+
+.PHONY : hexbot_moveit_config_4/all
+
+# Convenience name for "clean" pass in the directory.
+hexbot_moveit_config_4/clean:
+
+.PHONY : hexbot_moveit_config_4/clean
+
+# Convenience name for "preinstall" pass in the directory.
+hexbot_moveit_config_4/preinstall:
+
+.PHONY : hexbot_moveit_config_4/preinstall
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.

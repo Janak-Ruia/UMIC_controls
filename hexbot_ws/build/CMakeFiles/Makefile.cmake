@@ -18,6 +18,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "hexbot_moveit_config/catkin_generated/package.cmake"
   "hexbot_moveit_config_2/catkin_generated/package.cmake"
   "hexbot_moveit_config_3/catkin_generated/package.cmake"
+  "hexbot_moveit_config_4/catkin_generated/package.cmake"
   "opencv_tut/catkin_generated/ordered_paths.cmake"
   "opencv_tut/catkin_generated/package.cmake"
   "/home/janak/hexbot_ws/src/CMakeLists.txt"
@@ -29,6 +30,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/janak/hexbot_ws/src/hexbot_moveit_config_2/package.xml"
   "/home/janak/hexbot_ws/src/hexbot_moveit_config_3/CMakeLists.txt"
   "/home/janak/hexbot_ws/src/hexbot_moveit_config_3/package.xml"
+  "/home/janak/hexbot_ws/src/hexbot_moveit_config_4/CMakeLists.txt"
+  "/home/janak/hexbot_ws/src/hexbot_moveit_config_4/package.xml"
   "/home/janak/hexbot_ws/src/opencv_tut/CMakeLists.txt"
   "/home/janak/hexbot_ws/src/opencv_tut/package.xml"
   "/opt/ros/melodic/share/catkin/cmake/../package.xml"
@@ -219,6 +222,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "hexbot_moveit_config/CMakeFiles/CMakeDirectoryInformation.cmake"
   "hexbot_moveit_config_2/CMakeFiles/CMakeDirectoryInformation.cmake"
   "hexbot_moveit_config_3/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "hexbot_moveit_config_4/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:

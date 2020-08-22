@@ -4,8 +4,8 @@
   <!-- <param name="robot_description" command="cat '$(find hexbot)/urdf/bot_urdf.xacro'"/> -->
   <!-- if urdf was using macros, we need to convert it to urdf and the additional command should be added before loading it up -->
   
-  <param name="robot_description" command="$(find xacro)/xacro '$(find hexbot)/urdf/bot_urdf.xacro'"/> 
-
+  <!--param name="robot_description" command="$(find xacro)/xacro '$(find hexbot)/urdf/bot_urdf.xacro'"/--> 
+  <param name="robot_description" command="$(find hexbot)/urdf/bot_urdf.urdf"/>
   <!-- to define the initial position of the robot -->
   
   <arg name="x" default="0"/>

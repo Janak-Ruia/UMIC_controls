@@ -96,3 +96,10 @@
 /home/janak/hexbot_ws/build/hexbot_moveit_config_3/CMakeFiles/install/local.dir
 /home/janak/hexbot_ws/build/hexbot_moveit_config_3/CMakeFiles/rebuild_cache.dir
 /home/janak/hexbot_ws/build/hexbot_moveit_config_3/CMakeFiles/install.dir
+/home/janak/hexbot_ws/build/hexbot_moveit_config_4/CMakeFiles/install/strip.dir
+/home/janak/hexbot_ws/build/hexbot_moveit_config_4/CMakeFiles/edit_cache.dir
+/home/janak/hexbot_ws/build/hexbot_moveit_config_4/CMakeFiles/list_install_components.dir
+/home/janak/hexbot_ws/build/hexbot_moveit_config_4/CMakeFiles/test.dir
+/home/janak/hexbot_ws/build/hexbot_moveit_config_4/CMakeFiles/install/local.dir
+/home/janak/hexbot_ws/build/hexbot_moveit_config_4/CMakeFiles/rebuild_cache.dir
+/home/janak/hexbot_ws/build/hexbot_moveit_config_4/CMakeFiles/install.dir

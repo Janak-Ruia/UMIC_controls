@@ -136,6 +136,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/janak/hexbot_ws/build/hexbot_moveit_config/cmake_install.cmake")
   include("/home/janak/hexbot_ws/build/hexbot_moveit_config_2/cmake_install.cmake")
   include("/home/janak/hexbot_ws/build/hexbot_moveit_config_3/cmake_install.cmake")
+  include("/home/janak/hexbot_ws/build/hexbot_moveit_config_4/cmake_install.cmake")
 
 endif()
 

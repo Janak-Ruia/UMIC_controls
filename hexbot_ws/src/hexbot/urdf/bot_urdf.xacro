@@ -7,7 +7,8 @@
   <xacro:include filename="$(find hexbot)/urdf/macros.xacro"/>
   <xacro:include filename="$(find hexbot)/urdf/armmove.xacro"/>
   
-
+  <xacro:property name="damping_value" value="10" />
+  <xacro:property name="friction_value" value="0.1" />
 
   <link name="base_footprint">
    <visual>
