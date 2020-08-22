@@ -36,7 +36,7 @@
       <minDepth value="0.0001" />
   </gazebo>     
   
-   <!--gazebo>
+   <gazebo>
     <plugin name="object_controller" filename="libgazebo_ros_planar_move.so">
       <commandTopic>cmd_vel</commandTopic>
       <odometryTopic>odom</odometryTopic>
@@ -44,10 +44,10 @@
       <odometryRate>20.0</odometryRate>
       <robotBaseFrame>base_footprint</robotBaseFrame>
     </plugin>
-  </gazebo-->
+  </gazebo>
 
 
-<gazebo>
+<!--gazebo>
   <plugin name="skid_steer_drive_controller" filename="libgazebo_ros_skid_steer_drive.so">
     <updateRate>100.0</updateRate>
     <robotNamespace>/</robotNamespace>
@@ -62,7 +62,7 @@
     <topicName>cmd_vel</topicName>
     <broadcastTF>true</broadcastTF>
   </plugin>
-</gazebo> 
+</gazebo--> 
 
 <gazebo reference="camera_sensor">
     <sensor type="camera" name="camera1">
