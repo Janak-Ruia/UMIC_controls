@@ -49,6 +49,10 @@
   <!-- Given the published joint states, publish tf for the robot links -->
   <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" respawn="true" output="screen" />
 
+
+  <node pkg="moveit_ros_move_group" type="move_group" name="any_name" output="screen">
+    <remap from="joint_states" to="robot/joint_states"/>
+  </node>
   <!-- Run the main MoveIt! executable without trajectory execution (we do not have controllers configured by default) -->
   <include file="$(find hexbot_moveit_config_4)/launch/move_group.launch">
     <arg name="allow_trajectory_execution" value="true"/>

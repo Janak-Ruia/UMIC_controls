@@ -7,4 +7,5 @@
 
   <!-- loads ros_controllers to the param server -->
   <rosparam file="$(find hexbot_moveit_config_4)/config/ros_controllers.yaml"/>
+  <rosparam file="$(find hexbot_moveit_config_4)/config/controllers.yaml"/>
 </launch>
