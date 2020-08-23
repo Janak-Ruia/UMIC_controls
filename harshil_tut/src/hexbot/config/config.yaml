@@ -1,0 +1,18 @@
+hexbot:
+  joint_state_controller:
+      type: joint_state_controller/JointStateController
+      publish_rate: 20
+
+  arm_base_to_lower_position_controller:
+      type: effor_controllers/JointPositionController
+      joint: arm_base_to_lower
+      pid: {p: 1.0, i: 1.0, d: 0.0}
+  arm_lower_to_upper_position_controller:
+      type: effor_controllers/JointPositionController
+      joint: arm_lower_to_upper
+      pid: {p: 1.0, i: 1.0, d: 0.0}
+  arm_upper_to_last_position_controller:
+      type: effor_controllers/JointPositionController
+      joint: arm_upper_to_last
+      pid: {p: 1.0, i: 1.0, d: 0.0}
+  

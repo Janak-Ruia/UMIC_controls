@@ -1,0 +1,5 @@
+controller_list:
+  - name: hexbot_controller
+    action_ns: "follow_joint_trajectory"
+    type: FollowJointTrajectory 
+    joints: [joint_arm_lower, joint_arm_upper, joint_lastlink, joint_base_top]

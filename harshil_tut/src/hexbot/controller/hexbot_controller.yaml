@@ -1,0 +1,9 @@
+hexbot_controller:
+  type: position_controllers/JointTrajectoryController
+  joints:
+     - joint_arm_lower
+     - joint_arm_upper
+     - joint_lastlink
+     - joint_base_top
+  state_publish_rate:  25
+  action_monitor_rate: 10
